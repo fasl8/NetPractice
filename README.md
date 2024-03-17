@@ -7,7 +7,7 @@
 # IP ADDRESS
 - IP address: identifier for a computer or device on a network.
 - consists of two parts: Network address, Host address.
-- subnet mask: reveals how many bits in the IP address are used for the network by masking the network portion of the IP address
+- [subnet mask](https://www.youtube.com/watch?v=s_Ntt6eTn94): reveals how many bits in the IP address are used for the network by masking the network portion of the IP address
  
 ![o](https://github.com/fasl8/NetPractice/blob/main/IP%20address.png)
 https://www.youtube.com/watch?v=pCcJFdYNamc
