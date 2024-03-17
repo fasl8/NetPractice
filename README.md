@@ -5,6 +5,7 @@
 - Default: designated device is the first option thats looked upon when data needs to exit the network.
 
 # IP ADDRESS
+- IP address: identifier for a computer or device on a network.
 - consists of two parts: Network address, Host address.
 - subnet mask: reveals how many bits in the IP address are used for the network by masking the network portion of the IP address
  
