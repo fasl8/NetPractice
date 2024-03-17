@@ -9,3 +9,4 @@
 - subnet mask: reveals how many bits in the IP address are used for the network by masking the network portion of the IP address
  
 ![o](https://github.com/fasl8/NetPractice/blob/main/IP%20address.png)
+https://www.youtube.com/watch?v=pCcJFdYNamc
