@@ -53,6 +53,6 @@ The network address for both interfaces is determined by the first 30 bits of th
   - Since the network portion of both IP addresses must match, and the host portion must differ, we can change the last 2 bits of the IP address to find a suitable IP address for Interface D1.
 
 # LEVEL 3
-![L2](https://github.com/fasl8/NetPractice/blob/main/level3.png)
+![L3](https://github.com/fasl8/NetPractice/blob/main/level3.png)
 
 https://github.com/lpaube/NetPractice?tab=readme-ov-file#subnet-mask
