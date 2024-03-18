@@ -40,12 +40,13 @@
 ![L1](https://github.com/fasl8/NetPractice/blob/main/level1.png)
 # LEVEL 2
 1.Understanding the Subnet Mask:
-- subnet mask 255.255.255.252, when converted to binary, looks like this: 11111111.11111111.11111111.11111100.
-In slash notation, /30 represents the number of bits in the subnet mask that are set to 1. In this case, there are 30 bits set to 1, leaving 2 bits for hosts.
-- Interface D1 uses a subnet mask of /30, which means the first 30 bits of the IP address are dedicated to the network, leaving 2 bits for the host.
-- Interface C1 uses a subnet mask of 255.255.255.252, which is equivalent to /30 in slash notation.
+  - subnet mask 255.255.255.252, when converted to binary, looks like this: 11111111.11111111.11111111.11111100.
+  In slash notation, /30 represents the number of bits in the subnet mask that are set to 1. In this case, there are 30 bits set to 1, leaving 2 bits for hosts.
+  - Interface D1 uses a subnet mask of /30, which means the first 30 bits of the IP address are dedicated to the network, leaving 2 bits for the host.
+  - Interface C1 uses a subnet mask of 255.255.255.252, which is equivalent to /30 in slash notation.
 2. Determining the Network Address:
-Both interfaces D1 and C1 belong to the same network because they share the same subnet mask (/30).
+  - Both interfaces D1 and C1 belong to the same network because they share the same subnet mask (/30).
 The network address for both interfaces is determined by the first 30 bits of their IP addresses.
-
+3. Finding Suitable IP Addresses:
+  - Since the network portion of both IP addresses must match, and the host portion must differ, we can change the last 2 bits of the IP address to find a suitable IP address for Interface D1.
 https://github.com/lpaube/NetPractice?tab=readme-ov-file#subnet-mask
