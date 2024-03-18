@@ -36,11 +36,11 @@
 - Internet Layer(network layer): controls the movement of the packets around the internet.
 - Transport Layer: is what provides a reliable data connection between two devices, it divides the data into packets, knows the packets that are recieved from the other device, and it makes sure that the other device knows the packets it recieves.
 - Application Layer: is the group of the applications that requires a network communication, which is what the user typically interacts with, such as emails, and messaging, because the lower layer handles the details of communication, and there’s no need for the applications to concern themselves with it.
-
+# LEVEL 1
 ![L1](https://github.com/fasl8/NetPractice/blob/main/level1.png)
-![L2](https://github.com/fasl8/NetPractice/blob/main/level2.png)
 
 # LEVEL 2
+![L2](https://github.com/fasl8/NetPractice/blob/main/level2.png)
 1.Understanding the Subnet Mask:
   - subnet mask 255.255.255.252, when converted to binary, looks like this: 11111111.11111111.11111111.11111100.
   In slash notation, /30 represents the number of bits in the subnet mask that are set to 1. In this case, there are 30 bits set to 1, leaving 2 bits for hosts.
@@ -51,4 +51,8 @@
 The network address for both interfaces is determined by the first 30 bits of their IP addresses.
 3. Finding Suitable IP Addresses:
   - Since the network portion of both IP addresses must match, and the host portion must differ, we can change the last 2 bits of the IP address to find a suitable IP address for Interface D1.
+
+# LEVEL 3
+![L2](https://github.com/fasl8/NetPractice/blob/main/level3.png)
+
 https://github.com/lpaube/NetPractice?tab=readme-ov-file#subnet-mask
