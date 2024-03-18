@@ -103,9 +103,5 @@ The network address for both interfaces is determined by the first 30 bits of th
   - Both Host One (H1) and Host Two (H2) are on the same subnet (134.167.81.0/25). Since they are on the same subnet, they can communicate directly without needing a router.
   - Host One (H1) can communicate with Host Two (H2) by directly sending traffic to its IP address because they are on the same subnet.
   - the default route on Host One (H1) ensures that any traffic destined for addresses outside its local subnet is forwarded to the next hop, which in this case is 134.167.81.1.
-![L10G1](https://github.com/fasl8/NetPractice/blob/main/level10goal1.png)
-
-2. Goal 2 : host Host three needs to communicate with host Host four - Status : OK - Congratulations !!
-![L10G2](https://github.com/fasl8/NetPractice/blob/main/level10goal2.png)
 
 https://github.com/lpaube/NetPractice?tab=readme-ov-file#subnet-mask
