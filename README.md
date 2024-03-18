@@ -78,10 +78,10 @@
 
 
 # LEVEL 1
-![L1](https://github.com/fasl8/NetPractice/blob/main/level1.png)
+![L1](https://github.com/fasl8/NetPractice/blob/main/png%20ANS/level1.png)
 
 # LEVEL 2
-![L2](https://github.com/fasl8/NetPractice/blob/main/level2.png)
+![L2](https://github.com/fasl8/NetPractice/blob/main/png%20ANS/level2.png)
 1.Understanding the Subnet Mask:
   - subnet mask 255.255.255.252, when converted to binary, looks like this: 11111111.11111111.11111111.11111100.
   In slash notation, /30 represents the number of bits in the subnet mask that are set to 1. In this case, there are 30 bits set to 1, leaving 2 bits for hosts.
@@ -94,10 +94,10 @@ The network address for both interfaces is determined by the first 30 bits of th
   - Since the network portion of both IP addresses must match, and the host portion must differ, we can change the last 2 bits of the IP address to find a suitable IP address for Interface D1.
 
 # LEVEL 3
-![L3](https://github.com/fasl8/NetPractice/blob/main/level3.png)
+![L3](https://github.com/fasl8/NetPractice/blob/main/png%20ANS/level3.png)
 
 # LEVEL 10
-![L10](https://github.com/fasl8/NetPractice/blob/main/level3.png)
+![L10](https://github.com/fasl8/NetPractice/blob/main/png%20ANS/level1.png)
 1. Goal 1 : host Host one needs to communicate with host Host two - Status : OK - Congratulations !!
   - Host One (H1) is assigned the IP address 134.167.81.2 with a subnet mask of /25, which corresponds to a subnet mask of 255.255.255.128. Host Two (H2) is assigned the IP address 134.167.81.3 with the same subnet mask (/25) as Host One. -> Both hosts are connected to a switch (S1).
   - Both Host One (H1) and Host Two (H2) are on the same subnet (134.167.81.0/25). Since they are on the same subnet, they can communicate directly without needing a router.
