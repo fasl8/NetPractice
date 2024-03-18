@@ -96,4 +96,12 @@ The network address for both interfaces is determined by the first 30 bits of th
 # LEVEL 3
 ![L3](https://github.com/fasl8/NetPractice/blob/main/level3.png)
 
+# LEVEL 10
+![L10](https://github.com/fasl8/NetPractice/blob/main/level3.png)
+1. Goal 1 : host Host one needs to communicate with host Host two - Status : OK - Congratulations !!
+  - Host One (H1) is assigned the IP address 134.167.81.2 with a subnet mask of /25, which corresponds to a subnet mask of 255.255.255.128. Host Two (H2) is assigned the IP address 134.167.81.3 with the same subnet mask (/25) as Host One. -> Both hosts are connected to a switch (S1).
+  - Both Host One (H1) and Host Two (H2) are on the same subnet (134.167.81.0/25). Since they are on the same subnet, they can communicate directly without needing a router.
+  - Host One (H1) can communicate with Host Two (H2) by directly sending traffic to its IP address because they are on the same subnet.
+  - the default route on Host One (H1) ensures that any traffic destined for addresses outside its local subnet is forwarded to the next hop, which in this case is 134.167.81.1.
+2. 
 https://github.com/lpaube/NetPractice?tab=readme-ov-file#subnet-mask
