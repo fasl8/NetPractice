@@ -37,4 +37,6 @@
 - Transport Layer: is what provides a reliable data connection between two devices, it divides the data into packets, knows the packets that are recieved from the other device, and it makes sure that the other device knows the packets it recieves.
 - Application Layer: is the group of the applications that requires a network communication, which is what the user typically interacts with, such as emails, and messaging, because the lower layer handles the details of communication, and there’s no need for the applications to concern themselves with it.
 
+![L1](https://github.com/fasl8/NetPractice/blob/main/level1.png)
+
 https://github.com/lpaube/NetPractice?tab=readme-ov-file#subnet-mask
