@@ -36,6 +36,47 @@
 - Internet Layer(network layer): controls the movement of the packets around the internet.
 - Transport Layer: is what provides a reliable data connection between two devices, it divides the data into packets, knows the packets that are recieved from the other device, and it makes sure that the other device knows the packets it recieves.
 - Application Layer: is the group of the applications that requires a network communication, which is what the user typically interacts with, such as emails, and messaging, because the lower layer handles the details of communication, and there’s no need for the applications to concern themselves with it.
+
+
+| Prefix Size  |  Network Mask     | Usable Hosts per Subnet |
+| ------------ | ----------------  | ----------------------- |
+| /1           | 128.0.0.0         | 2,147,483,646           |
+| /2           | 192.0.0.0         | 1,073,741,822           |
+| /3           | 224.0.0.0         | 536,870,910             |
+| /4           | 240.0.0.0         | 268,435,454             |
+| /5           | 248.0.0.0         | 134,217,726             |
+| /6           | 252.0.0.0         | 67,108,862              |
+| /7           | 254.0.0.0         | 33,554,430              |
+| Class A                                                    |
+| /8           | 255.0.0.0         | 16,777,214              |
+| /9           | 255.128.0.0       | 8,388,606               |
+| /10          | 255.192.0.0       | 4,194,302               |
+| /11          | 255.224.0.0       | 2,097,150               |
+| /12          | 255.240.0.0       | 1,048,574               |
+| /13          | 255.248.0.0       | 524,286                 |
+| /14          | 255.252.0.0       | 262,142                 |
+| /15          | 255.254.0.0       | 131,070                 |
+| Class B                                                    |
+| /16          | 255.255.0.0       | 65,534                  |
+| /17          | 255.255.128.0     | 32,766                  |
+| /18          | 255.255.192.0     | 16,382                  |
+| /19          | 255.255.224.0     | 8,190                   |
+| /20          | 255.255.240.0     | 4,094                   |
+| /21          | 255.255.248.0     | 2,046                   |
+| /22          | 255.255.252.0     | 1,022                   |
+| /23          | 255.255.254.0     | 510                     |
+| Class C                                                    |
+| /24          | 255.255.255.0     | 254                     |
+| /25          | 255.255.255.128   | 126                     |
+| /26          | 255.255.255.192   | 62                      |
+| /27          | 255.255.255.224   | 30                      |
+| /28          | 255.255.255.240   | 14                      |
+| /29          | 255.255.255.248   | 6                       |
+| /30          | 255.255.255.252   | 2                       |
+| /31          | 255.255.255.254   | 0                       |
+| /32          | 255.255.255.255   | 0                       |
+
+
 # LEVEL 1
 ![L1](https://github.com/fasl8/NetPractice/blob/main/level1.png)
 
@@ -54,5 +95,14 @@ The network address for both interfaces is determined by the first 30 bits of th
 
 # LEVEL 3
 ![L3](https://github.com/fasl8/NetPractice/blob/main/level3.png)
+
+# LEVEL 10
+![L10](https://github.com/fasl8/NetPractice/blob/main/level3.png)
+1. Goal 1 : host Host one needs to communicate with host Host two - Status : OK - Congratulations !!
+  - Host One (H1) is assigned the IP address 134.167.81.2 with a subnet mask of /25, which corresponds to a subnet mask of 255.255.255.128. Host Two (H2) is assigned the IP address 134.167.81.3 with the same subnet mask (/25) as Host One. -> Both hosts are connected to a switch (S1).
+  - Both Host One (H1) and Host Two (H2) are on the same subnet (134.167.81.0/25). Since they are on the same subnet, they can communicate directly without needing a router.
+  - Host One (H1) can communicate with Host Two (H2) by directly sending traffic to its IP address because they are on the same subnet.
+  - the default route on Host One (H1) ensures that any traffic destined for addresses outside its local subnet is forwarded to the next hop, which in this case is 134.167.81.1.
+2. Goal 2 : host Host three needs to communicate with host Host four - Status : OK - Congratulations !!
 
 https://github.com/lpaube/NetPractice?tab=readme-ov-file#subnet-mask
