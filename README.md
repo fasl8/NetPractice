@@ -106,5 +106,6 @@ The network address for both interfaces is determined by the first 30 bits of th
 ![L10G1](https://github.com/fasl8/NetPractice/blob/main/level10goal1.png)
 
 2. Goal 2 : host Host three needs to communicate with host Host four - Status : OK - Congratulations !!
+![L10G2](https://github.com/fasl8/NetPractice/blob/main/level10goal2.png)
 
 https://github.com/lpaube/NetPractice?tab=readme-ov-file#subnet-mask
