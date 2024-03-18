@@ -38,6 +38,8 @@
 - Application Layer: is the group of the applications that requires a network communication, which is what the user typically interacts with, such as emails, and messaging, because the lower layer handles the details of communication, and there’s no need for the applications to concern themselves with it.
 
 ![L1](https://github.com/fasl8/NetPractice/blob/main/level1.png)
+![L2](https://github.com/fasl8/NetPractice/blob/main/level2.png)
+
 # LEVEL 2
 1.Understanding the Subnet Mask:
   - subnet mask 255.255.255.252, when converted to binary, looks like this: 11111111.11111111.11111111.11111100.
