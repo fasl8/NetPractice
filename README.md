@@ -97,7 +97,7 @@ The network address for both interfaces is determined by the first 30 bits of th
 ![L3](https://github.com/fasl8/NetPractice/blob/main/png%20ANS/level3.png)
 
 # LEVEL 10
-![L10](https://github.com/fasl8/NetPractice/blob/main/png%20ANS/level1.png)
+![L10](https://github.com/fasl8/NetPractice/blob/main/png%20ANS/level10.png)
 1. Goal 1 : host Host one needs to communicate with host Host two - Status : OK - Congratulations !!
   - Host One (H1) is assigned the IP address 134.167.81.2 with a subnet mask of /25, which corresponds to a subnet mask of 255.255.255.128. Host Two (H2) is assigned the IP address 134.167.81.3 with the same subnet mask (/25) as Host One. -> Both hosts are connected to a switch (S1).
   - Both Host One (H1) and Host Two (H2) are on the same subnet (134.167.81.0/25). Since they are on the same subnet, they can communicate directly without needing a router.
